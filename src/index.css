@@ -11,3 +11,43 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cellGrid {
+  width: 150px;
+  line-height: 0;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.wrapper {
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.wrapper h1{
+  position: relative;
+  margin: 0 auto;
+  width: 25%;
+}
+
+.inputs {
+  padding-top: 1rem;
+  margin: 0 auto;
+  width: 20%;
+}
+
+.cell{
+  display: inline-block;
+  height: 14px;
+  width: 14px;
+  margin: 0.5px;
+}
+
+.alive{
+  background: rgb(134, 226, 219);
+}
+
+.dead{
+  background: black;
+}
